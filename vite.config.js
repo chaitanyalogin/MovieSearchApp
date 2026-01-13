@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/movieapp/',   // 🔴 REQUIRED
+  base: '/MovieSearchApp/', // ✅ MUST match repo name exactly
   plugins: [
     react(),
     tailwindcss(),
