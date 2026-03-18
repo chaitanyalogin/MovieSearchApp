@@ -5,7 +5,7 @@ const MovieCard = ({ allMovieData, loading }) => {
   }
 
   if (!allMovieData?.length) {
-    return <p className="text-white text-center">No movies found</p>
+    return <p className="text-white text-center">please search for any movies</p>
   }
 
   return (
